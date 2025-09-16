@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
-@import "tailwindcss";
+/* Never do this in global css file, it will overwrite css on other elements
+when applied for margin and padding */
 
-
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 body {
   font-family: Inter;
 }
+
+@import "tailwindcss";
+
+
 
 @theme {
   --color-green-50: #30AF5B;
