@@ -40,6 +40,11 @@ body {
   --radius-5xl: 40px;
 }
 
+
+/* @utility bold-88 {
+    @apply text-[88px] font-[700] leading-[120%];
+} */
+
 @layer utilities {
   .btn_white { 
     @apply  border-white bg-white px-8 py-3 text-green-50
