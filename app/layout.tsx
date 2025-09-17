@@ -14,13 +14,13 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://trending-movies-nu.vercel.app/",
+    url: "https://travel-app-xi-two.vercel.app/",
     title: "Hilink | Travel Partner",
     description: "Experience the best time of your existance. Find the best places for traveling",
     siteName: "Hilink",
     images: [
       {
-        url: "https://trending-movies-nu.vercel.app/og.png",
+        url: "https://travel-app-xi-two.vercel.app/og.png",
         width: 1200,
         height: 630,
       },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     creator: "@tokyaramen",
     title: "Hilink | Travel Partner",
     description: "Experience the best time of your existance. Find the best places for traveling",
-    images: ["https://trending-movies-nu.vercel.app/og.png"],
+    images: ["https://travel-app-xi-two.vercel.app/og.png"],
   },
   // Not directly supported by Next Metadata, so we use "other"
   other: {
