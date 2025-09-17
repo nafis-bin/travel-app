@@ -3,11 +3,11 @@
 /* Never do this in global css file, it will overwrite css on other elements
 when applied for margin and padding */
 
-/* * {
-  margin: 0;
-  padding: 0;
+* {
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
-} */
+}
 
 body {
   font-family: Inter;
