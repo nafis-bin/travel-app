@@ -77,10 +77,25 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
   title: 'Social',
   links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
-    '/wordpress.svg',
+    {
+      img: '/facebook.svg',
+      li: 'https://facebook.com'
+    },
+    {
+      img: '/instagram.svg',
+      li: 'https://www.instagram.com/_nafis_bin/'
+    },
+    {
+      img: '/twitter.svg',
+      li: 'https://x.com/TokyaRamen'
+    },
+    {
+      img: '/youtube.svg',
+      li: 'https://www.youtube.com/watch?v=xvFZjo5PgG0'
+    },
+    {
+      img: '/wordpress.svg',
+      li: 'https://www.youtube.com/watch?v=xvFZjo5PgG0'
+    },
   ],
 };

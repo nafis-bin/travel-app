@@ -52,9 +52,9 @@ const Footer = () => {
                                 <FooterColumn title={SOCIALS.title}>
                                     <ul className="regular-14 flex gap-4 text-gray-30">
                                         {SOCIALS.links.map((link) => (
-                                            <Link href="/" key={link}>
+                                            <Link href={link.li} key={link.li}>
                                                 <Image 
-                                                    src={link}
+                                                    src={link.img}
                                                     alt="logo"
                                                     width={24}
                                                     height={24}
